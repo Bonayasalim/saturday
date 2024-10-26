@@ -1,0 +1,71 @@
+/* Global styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: teal;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section styling */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+#home {
+    background-color: lightblue;
+}
+
+#about {
+    background-color: green;
+}
+
+#courses {
+    background-color: #ffeaa7;
+}
+
+#career {
+    background-color: #fab1a0;
+}
+
+#contact {
+    background-color: #dfe6e9;
+}
+
+/* Footer styling */
+footer {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

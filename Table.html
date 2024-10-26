@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the page is responsive -->
+    <title>Mr. Opande Table Assignment</title> <!-- Sets the title of the webpage -->
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Sets the font for the body */
+            background-color: white; /* Light gray background for the body */
+            justify-content: start; /* Centers the table horizontally */
+            align-items: center; /* Centers the table vertically */
+            height: 100vh; /* Sets the height to 100% of the viewport height */
+            display: flex; /* Uses Flexbox for layout */
+        }
+
+        table {
+            width: 60%; /* Sets the width of the table */
+            border-collapse: collapse; /* Collapses borders between cells */
+            background-color: white; /* Sets the background color of the table */
+            border-radius: 15px; /* Rounds the corners of the table */
+            overflow: hidden; /* Hides overflow to maintain rounded corners */
+
+        }
+
+        th, td {
+            text-align: left; /* Aligns text to the left */
+            padding: 15px; /* Adds padding inside table cells */
+        }
+
+        th {
+            background-color: teal; /* Teal background color for the header */
+            color: white; /* White text color for the header */
+            font-size: 18px; /* Increases the font size for header cells */
+        }
+
+        td {
+            font-size: 14px; /* Sets the font size for data cells */
+        }
+        tr:nth-child(even) {
+            background-color: lightgray; /* Light gray background for even rows */
+        }
+            tr:nth-child(2) {color: teal; font-weight: bold;
+
+        }
+            tr:nth-child(3) td {
+            border-bottom: 5px teal solid;
+
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th>Rank</th> <!-- Header for the Rank column -->
+            <th>Name</th> <!-- Header for the Name column -->
+            <th>Points</th> <!-- Header for the Points column -->
+            <th>Team</th> <!-- Header for the Team column -->
+            <th>Salim</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td> <!-- Rank for the first entry -->
+            <td>Domenic</td> <!-- Name of the first entry -->
+            <td>88,110</td> <!-- Points for the first entry -->
+            <td>dcode</td> <!-- Team of the first entry -->
+        </tr>
+        <tr>
+            <td>2</td> <!-- Rank for the second entry -->
+            <td>Sally</td> <!-- Name of the second entry -->
+            <td>72,400</td> <!-- Points for the second entry -->
+            <td>Students</td> <!-- Team of the second entry -->
+        </tr>
+        <tr>
+            <td>3</td> <!-- Rank for the third entry -->
+            <td>Nick</td> <!-- Name of the third entry -->
+            <td>52,300</td> <!-- Points for the third entry -->
+            <td>dcode</td> <!-- Team of the third entry -->
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
+

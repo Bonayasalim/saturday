@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Navigation bar styling */
+        nav {
+            background-color: teal;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Styling for links in the navigation bar */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main content styling */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Home page styling */
+        .home-section {
+            background-color: lightblue;
+            padding: 40px;
+            text-align: center;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        /* About page styling */
+        .about-section {
+            background-color: lightgreen;
+            padding: 40px;
+            text-align: center;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav>
+    <h1 style="color:white;">My Website</h1> <!-- Website title -->
+    <ul>
+        <li><a href="#home">Home</a></li> <!-- Link to Home section -->
+        <li><a href="#about">About</a></li> <!-- Link to About section -->
+    </ul>
+</nav>
+
+<!-- Main Content -->
+<div class="container">
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <h2>Welcome to the Home Page</h2>
+        <p>This is the home page of our simple website. Navigate using the links above to learn more about us.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We are passionate about creating simple and effective web designs. Explore more through our links to know our story!</p>
+    </section>
+</div>
+
+</body>
+</html>
